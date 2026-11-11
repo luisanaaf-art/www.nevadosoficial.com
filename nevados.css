@@ -1,0 +1,140 @@
+/* Desplazamiento suave al hacer clic en los botones de navegación */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fondo general de la página (#E5ECF0) */
+body {
+    background-color: #E5ECF0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/* Menú de navegación fijo en la parte superior */
+.menu-navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #667F7B;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    z-index: 1000;
+}
+
+/* Botones del menú */
+.btn-nav {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 12px;
+    padding: 8px 16px;
+    background-color: #79938F;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Logo flotante en la esquina */
+.logo-esquina {
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #667F7B;
+}
+
+/* Títulos y textos principales */
+h1, h2 {
+    color: #667F7B;
+    margin-bottom: 5px;
+}
+
+.lema {
+    font-style: italic;
+    color: #86878B;
+    margin-top: 0;
+}
+
+.creadores {
+    font-size: 14px;
+    font-weight: bold;
+    color: #79938F;
+}
+
+/* Tabla de descripción */
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+td {
+    padding: 12px;
+    font-size: 15px;
+}
+
+.titulo-tabla {
+    background-color: #79938F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Tarjetas de Precios y Contacto */
+.tarjeta-precio, .info-contacto {
+    background-color: #FFFFFF;
+    max-width: 480px;
+    margin: 15px auto;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid #667F7B;
+}
+
+.monto {
+    font-size: 26px;
+    font-weight: bold;
+    color: #667F7B;
+    margin: 8px 0;
+}
+
+.detalle-precio {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.p1 {
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid #86878B;
+}
+
+/* Botón circular interactivo para el Instagram con instagram.jpg */
+.img-boton {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #667F7B;
+    transition: transform 0.2s;
+}
+
+.img-boton:hover {
+    transform: scale(1.1);
+}
+
+/* Pie de página (Footer) */
+footer {
+    background-color: #86878B;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 13px;
+}
